@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+2,Lifford,MI,0.0575,Carpet,200,2.25,2.10,450.00,420.00,50.025000,920.025000

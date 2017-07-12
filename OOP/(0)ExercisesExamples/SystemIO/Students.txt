@@ -1,0 +1,4 @@
+FirstName,LastName,Major,GPA
+Eric,Wise,Computer Science,4.0
+Brad,Lifford,Sociology,3.7
+Clare,Hahneman,Political Science,3.9

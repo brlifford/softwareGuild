@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+4,Clare,PA,0.0675,Carpet,101,2.25,2.10,227.25,212.10,29.656125,469.006125

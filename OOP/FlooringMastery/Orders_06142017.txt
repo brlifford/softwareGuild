@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+3,David,MI,0.0575,Carpet,101,2.25,2.10,227.25,212.10,25.262625,464.612625

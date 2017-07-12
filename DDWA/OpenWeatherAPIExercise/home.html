@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Weather</title>
+		
+        <link href="css/bootstrap.css" 
+			  rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+			<h1>Weather Page</h1>
+			<hr/>
+			
+			
+			<form class="form-inline" role="form" id="get-weather-form">
+				<div class="form-group">
+					<label for="zipcode-field">Zipcode:</label>
+						<input type="num" class="form-control mb-2 mr-sm-2 mb-sm-0"
+							id="zipcode-field"
+							placeholder="Enter Zipcode" required/>
+					<label for="units-dropdown">Units:</label>
+					
+					<select class="form-control" id="units-field">
+						<option id="imperial">Imperial</option>
+						<option id="metric">Metric</option>
+					</select>
+					
+					<button type="button"
+							id="get-weather-button"
+							class="btn btn-default">
+						Get Weather
+					</button>
+					
+				</div>
+			</form>
+				
+				
+				
+			
+			<div class="col-md-12">
+				<div id="weatherTableDiv">
+					<h2 id="display-weather-city"></h2>
+					
+					<table id="locationTable" class="table">
+						
+						<tbody id="contentRows"></tbody>
+					</table>
+					<hr />
+					
+					<h2>Five Day Forecast</hr>
+					
+					<table id="five-day-table" class="table">
+						<tbody id="fiveDayRow"></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+        <script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

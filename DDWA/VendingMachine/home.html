@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+		
+        <link href="css/bootstrap.css" 
+			  rel="stylesheet">
+
+        <style>
+            div.item{text-align: center}
+            
+            body{background-color: black; color:white}
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="text-align:center; font-variant:small-caps">Brad's Auto-Vendor</h1>
+            <br>
+            <hr style="border-color:black; border-width: 3px 0 0 0">                
+            <div id="vending-items-div" class="row col-xs-8">
+                <!--foreach loop through items in web svc-->
+            </div>
+            <div id="vending-ui-div" class="row col-xs-4">
+                <h3 style="text-align: center; font-variant:small-caps">Total $ In</h3>   
+                <div class="col-xs-offset-4 col-xs-4" id="amount-display" style="border-style:solid; text-align: center">$0.00</div>
+                <br><br>
+                <div class="form">
+                                    
+                    <div class="form-group col-xs-offset-2 col-xs-4" id="add-dollar">
+                        <button class="btn btn-primary" type="button">Add Dollar</button>
+                    </div>
+                    <div class="form-group col-xs-4" id="add-quarter">
+                        <button class="btn btn-primary" type="button">Add Quarter</button>
+                    </div>
+                    <div class="form-group col-xs-offset-2 col-xs-4" id="add-dime">
+                        <button class="btn btn-primary" type="button">Add Dime</button>
+                    </div>
+                    <div class="form-group col-xs-4" id="add-nickel">
+                        <button class="btn btn-primary" type="button">Add Nickel</button>
+                    </div>
+                </div>
+                <br/><br/><br/><br/>
+                <hr style="border-color:black; border-width: 3px 0 0 0"> 
+                <h3 style="text-align:center; font-variant:small-caps">Messages</h3>
+                <div class="col-xs-offset-2 col-xs-8" id="item-display" style="border-style:solid; text-align: center">Item #</div>
+                <br><br>
+                <div class="form-inline col-xs-offset-2">
+                                    
+                    <div class="form-group" >
+                        <label>Item: </label>
+                        <input type="number" class="form-control" style="text-align: center" id="item-select" required/>
+                    </div>
+                    <br/><br/>
+                    <div class="form-group col-xs-offset-2 col-xs-6" style="text-align: center" id="make-purchase">
+                        <button class="btn btn-primary" type="button">Make Purchase</button>
+                    </div>
+                </div>
+                <br/>
+                <hr style="border-color:black; border-width: 3px 0 0 0"> 
+                <h3 style="text-align:center; font-variant:small-caps">Change</h3>
+                <div class="col-xs-offset-3 col-xs-6" id="change-amount-display" style="border-style:solid; text-align: center"><br></div>
+                <br/><br/>
+                <div class="form">
+                                    
+                    <div class="form-group col-xs-offset-3 col-xs-6" style="text-align: center" id="change-return">
+                        <button class="btn btn-primary" type="button">Change Return</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            
+        </div>
+        <script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

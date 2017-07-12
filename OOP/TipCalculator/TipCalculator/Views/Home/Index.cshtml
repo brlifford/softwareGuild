@@ -1,0 +1,20 @@
+﻿@model TipCalculator.Models.Calc
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form method="post">
+    <h3>Tip Calculator</h3>
+    $<input type="number" name="dollars"/><br />
+    %<input type="number" name="tippercent"/><br />
+    <button type="submit">Calculate</button>
+</form>
+
+
+
+@if(Model != null)
+{
+    <p>The tip amount is @Model.TipAmount.Value.ToString("c")</p>
+}

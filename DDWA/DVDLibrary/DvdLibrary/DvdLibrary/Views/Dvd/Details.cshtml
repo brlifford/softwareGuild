@@ -1,0 +1,32 @@
+﻿@model DvdLibrary.Models.Queries.DvdItem
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Dvd Details</h2>
+
+    </div>
+</div>
+<div class="row"></div>
+
+@section Scripts
+{
+    <script>
+        var dvdId = @Model.DvdId;
+
+        function addDvd() {
+            $.ajax({
+                type: 'POST',
+                url: '',
+                success: function () {
+
+                },
+                error: function () {
+                    alert('Unable to add contact!')
+                }
+            });
+        }
+
+    </script>}
